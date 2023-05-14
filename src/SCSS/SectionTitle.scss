@@ -1,0 +1,19 @@
+.Section_Title {
+  width: auto;
+  height: 10px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+  padding: 20px;
+  outline: 1px solid #E8EDDF;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  gap: 20px;
+  h1 {
+    font-weight: 200;
+    font-size: 1.25rem;
+  }
+}
