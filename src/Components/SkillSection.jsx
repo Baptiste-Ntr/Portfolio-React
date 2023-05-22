@@ -1,5 +1,5 @@
 import SectionTitle from "./SectionTitle";
-import {faMicrochip, faSuitcase} from "@fortawesome/free-solid-svg-icons";
+import {faMicrochip} from "@fortawesome/free-solid-svg-icons";
 import SkillPart from "./SkillPart";
 import {SiCss3, SiHtml5, SiJavascript, SiReact, SiNextdotjs, SiFigma, SiGit, SiNpm} from "react-icons/si";
 
