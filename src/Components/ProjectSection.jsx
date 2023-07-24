@@ -13,7 +13,7 @@ export default function ProjectSection() {
                                  ProjectTechno={['React', 'Next', 'TailWind', 'SupaBase']}
                                  ProjectURL={'https://spotify-clone-ten-lilac.vercel.app'}
                                  titleSize={'big_title'}
-                                 ProjectImg={'../public/img/spotify.png'}
+                                 ProjectImg={'/img/spotify.png'}
                     />
                 </div>
                 <div className='row2'>
