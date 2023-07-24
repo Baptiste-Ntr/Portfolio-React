@@ -23,8 +23,8 @@ export const ProjectItem = ({ProjectName, ProjectTechno, ProjectURL, titleSize, 
             <footer onClick={handleLocation}>
                 <h1 className={titleSize}>{ProjectName}</h1>
                 <div className="project_techno_container">
-                    {ProjectTechno.map((techno) => {
-                        return <div className="project_techno">{techno}</div>
+                    {ProjectTechno.map((techno, index) => {
+                        return <div key={index} className="project_techno">{techno}</div>
                     })}
                 </div>
             </footer>

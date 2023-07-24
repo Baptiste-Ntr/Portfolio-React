@@ -13,11 +13,11 @@ export default function ProjectSection() {
                                  ProjectTechno={['React', 'Next', 'TailWind', 'SupaBase']}
                                  ProjectURL={'https://spotify-clone-ten-lilac.vercel.app'}
                                  titleSize={'big_title'}
-                                 ProjectImg={'../src/assets/img/spotify.png'}
+                                 ProjectImg={'../public/img/spotify.png'}
                     />
                 </div>
                 <div className='row2'>
-                    <ProjectItem ProjectName={'Weather App'} ProjectTechno={['React', 'API']} ProjectURL={''} titleSize={'medium_title'} />
+                    <ProjectItem ProjectName={'Weather App'} ProjectTechno={['React', 'API']} ProjectURL={'https://meteo-three.vercel.app'} titleSize={'medium_title'} />
                     {/*<section>*/}
                     {/*    <footer>*/}
                     {/*        <h1 className="little_title">Project 3</h1>*/}
