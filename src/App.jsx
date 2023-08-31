@@ -6,6 +6,7 @@ import SideBar from "./Components/SideBar";
 import SectionsContainer from "./Components/SectionsContainer";
 import toast, {Toaster} from "react-hot-toast";
 import {useEffect} from "react";
+import {Analytics} from "@vercel/analytics/react";
 
 export default function App() {
 
@@ -30,6 +31,7 @@ export default function App() {
             <ProfilCard />
             <SideBar />
             <SectionsContainer/>
+            <Analytics />
         </>
     );
 }
