@@ -3,7 +3,7 @@ import {faUser} from "@fortawesome/free-solid-svg-icons";
 
 export default function AboutSection() {
     return (
-        <div className="About_Section">
+        <div className="About_Section" id={'about'}>
             <SectionTitle label={"About"} SectionIcon={faUser}/>
             <main>
                 <h1> My <span className="color_yellow">Story</span></h1>

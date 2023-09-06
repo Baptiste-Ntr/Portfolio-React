@@ -3,7 +3,7 @@ import {faHouse} from "@fortawesome/free-solid-svg-icons";
 
 export default function IntroduceSection() {
     return (
-        <div className="Introduce_Section">
+        <div className="Introduce_Section" id={"introduce"}>
             <SectionTitle label={"Introduce"} SectionIcon={faHouse}/>
             <main>
                 <h1>Hi! I'm Baptiste</h1>

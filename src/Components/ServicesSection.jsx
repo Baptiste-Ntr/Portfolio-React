@@ -4,7 +4,7 @@ import ServicesPart from "./ServicesPart";
 
 export default function ServicesSection() {
     return (
-        <div className="Services_Section">
+        <div className="Services_Section" id={'services'}>
             <SectionTitle label={"Services"} SectionIcon={faTruckFast}/>
             <main>
                 <h1>My <span className="color_yellow">Services</span></h1>

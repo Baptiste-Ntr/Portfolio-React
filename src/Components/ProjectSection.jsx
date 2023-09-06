@@ -4,7 +4,7 @@ import {ProjectItem} from "./ProjectItem";
 
 export default function ProjectSection() {
     return (
-        <div className="Project_Section">
+        <div className="Project_Section" id={'projects'}>
             <SectionTitle label={"Projects"} SectionIcon={faWallet}/>
             <main>
                 <h1>My <span className="color_yellow">Projects</span></h1>

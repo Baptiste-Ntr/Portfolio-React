@@ -3,7 +3,7 @@ import {faSuitcase} from "@fortawesome/free-solid-svg-icons";
 
 export default function ExperienceSection() {
     return (
-        <div className="Experience_Section">
+        <div className="Experience_Section" id={"experience"}>
             <SectionTitle label={"Experience"} SectionIcon={faSuitcase}/>
             <main>
                 <section>

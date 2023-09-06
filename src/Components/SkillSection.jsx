@@ -5,7 +5,7 @@ import {SiCss3, SiHtml5, SiJavascript, SiReact, SiNextdotjs, SiTypescript} from 
 
 export default function SkillSection() {
     return (
-        <div className="Skill_Section">
+        <div className="Skill_Section" id={'skills'}>
             <SectionTitle label={"Skills"} SectionIcon={faMicrochip}/>
             <main>
                 <h1><span className="color_yellow">Techno</span>logies</h1>
