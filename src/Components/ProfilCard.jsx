@@ -1,3 +1,5 @@
+import { FaGithub } from "react-icons/fa";
+
 export default function ProfilCard() {
     return (
         <div className="Profil_Card">
@@ -18,11 +20,9 @@ export default function ProfilCard() {
                 <h2>baptiste.nautre@hotmail.fr</h2>
                 <p>© <span>Baptiste.</span> All Rights Reserved</p>
             </section>
-            {/* <ul>
-                <li>Insta</li>
-                <li>Twitter</li>
-                <li>Github</li>
-            </ul> */}
+            <ul>
+                <li onClick={() => window.location.href = 'https://github.com/Baptiste-Ntr'}><FaGithub size={30} /></li>
+            </ul>
             <footer>
                 <button>Contact <span>me</span> !</button>
             </footer>
