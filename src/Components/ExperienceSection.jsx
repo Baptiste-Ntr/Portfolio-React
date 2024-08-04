@@ -17,7 +17,7 @@ export default function ExperienceSection() {
                     <p>09/2023 - 12/2025</p>
                     <div>
                         <h1>Mastere Developper Full Stack</h1>
-                        <h6 onClick={() => window.location.href = "https://www.livecampus.fr/formations/mastere-developpeur-web-full-stack"}></h6>
+                        <h6 onClick={() => window.location.href = "https://www.livecampus.fr/formations/mastere-developpeur-web-full-stack"}>LiveCampus</h6>
                     </div>
                 </section>
                 <section>
