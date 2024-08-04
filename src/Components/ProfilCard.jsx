@@ -15,14 +15,14 @@ export default function ProfilCard() {
                 {/* PP IMG */}
             </main>
             <section>
-                <h2>contact@baptiste-ntr.fr</h2>
+                <h2>baptiste.nautre@hotmail.fr</h2>
                 <p>© <span>Baptiste.</span> All Rights Reserved</p>
             </section>
-            <ul>
+            {/* <ul>
                 <li>Insta</li>
                 <li>Twitter</li>
                 <li>Github</li>
-            </ul>
+            </ul> */}
             <footer>
                 <button>Contact <span>me</span> !</button>
             </footer>
